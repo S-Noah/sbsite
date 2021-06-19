@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nested {
+    list-style:disc;
+    padding-left: 3%;
+}
+html {
+    background-color: #3e3e3e;
+}
+body {
+    width: 60em;
+    margin: 0 auto;
+}
+header {
+    border-bottom: 0.5em solid black;
+    width: 60em;
+    margin: 0 auto;
+    background-color: #3e3e3e;
+}
+header img {
+    width: 12em;
+    float: left;
+    padding-top: 3em;
+    padding-left: 2em;
+    padding-right: 0;
+}
+header h1 {
+    width: 10em;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.2em;
+    padding-top: 1em;
+    
+    font-size: 350%;
+    font-family: "Norwester", system-ui;
+    color: #ebcb9f;
+    text-shadow: 4px  4px 8px black;
+}
+header h2 {
+    width: 15em;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.4em;
+    
+    font-size: 200%;
+    color: white;
+    background-color: black; 
+    font-family: 'Rubik', sans-serif;
+    display: block; 
+
+}
+#amp {
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+header div {
+    width: 40em;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: .5em;
+    padding-right: 6em;
+    
+}
+header div button {
+    background-color: #ebcb9f;
+    padding: 1em 1.5em;
+    border: .15em solid black;
+
+    color: black;
+    font-size: 90%;
+    font-family: "Norwester", system-ui;
+    font-weight: bolder;
+    
+}
+button:hover {
+    background-color: black;
+    border: .15em solid #ebcb9f;
+    color: #ebcb9f;
+}
+
+p {
+    width: 29em;
